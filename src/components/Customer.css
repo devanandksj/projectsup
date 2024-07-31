@@ -1,0 +1,108 @@
+/* Customer Management Container */
+.customer-management {
+    padding: 20px;
+    max-width: 800px;
+    margin-top: 100px;
+    margin-left: 300px;
+    border-radius: 8px;
+    background:  #34495E; /* Gradient background */
+    box-shadow: rgba(28, 183, 98, 0.4) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    color: #333;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ECF0F1;
+    font-size: 2em;
+}
+
+/* Customer List */
+.customer-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Increased gap for better spacing */
+    justify-content: center; /* Center the flex items horizontally */
+}
+
+/* Customer Item */
+.customer-item {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: calc(33.333% - 10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added initial box shadow */
+}
+
+.customer-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Customer Info */
+.customer-info {
+    text-align: center;
+}
+
+.customer-name {
+    font-size: 1.25em; /* Increased font size */
+    margin: 0;
+    color: #E67E22;
+}
+
+.customer-email {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px; /* Added spacing between name and email */
+}
+.customer-info
+{
+    color: #126f86;
+}
+
+/* Customer Details */
+.customer-details {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow for details section */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.details-title {
+    grid-column: span 2; /* Span title across full width */
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.5em; /* Increased font size */
+}
+
+.details-content p {
+    font-size: 16px;
+    margin: 10px 0;
+    color:#092414
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .customer-item {
+        width: calc(50% - 10px); /* Adjust to two items per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .customer-item {
+        width: 100%; /* Adjust to full width on mobile */
+    }
+
+    .details-title {
+        grid-column: span 1; /* Adjust title to span full width on mobile */
+    }
+}

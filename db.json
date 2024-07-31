@@ -1,0 +1,648 @@
+{
+  "users": [
+    {
+      "id": "b265",
+      "username": "727722euai034@skcet.ac.in",
+      "password": "Deva@123"
+    },
+    {
+      "id": "8d2a",
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": "ceb1",
+      "username": "devanand",
+      "password": "dev12"
+    },
+    {
+      "id": "7c3f",
+      "username": "G",
+      "password": "G123"
+    },
+    {
+      "id": "2c31",
+      "username": "G",
+      "password": "123"
+    },
+    {
+      "id": "bb58",
+      "username": "Dev",
+      "password": "123"
+    },
+    {
+      "id": "b244",
+      "username": "Dev",
+      "password": "123"
+    },
+    {
+      "id": "3b72",
+      "username": "user",
+      "password": "123"
+    },
+    {
+      "id": "381e",
+      "username": "deva",
+      "password": "123"
+    },
+    {
+      "id": "a126",
+      "username": "deva",
+      "password": "123"
+    },
+    {
+      "id": "f80d",
+      "username": "Dev",
+      "password": "123"
+    },
+    {
+      "id": "288e",
+      "username": "Dev",
+      "password": "123"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "1",
+      "name": "Supplier 1",
+      "contact": "1234567890",
+      "email": "supplier1@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Supplier 2",
+      "contact": "12345678345",
+      "email": "supplier2@example.com"
+    },
+    {
+      "id": "8053",
+      "name": "Devanand K.S.J",
+      "contact": "7708586808",
+      "email": "deva@gmail.com"
+    },
+    {
+      "id": "b351",
+      "name": "deepak",
+      "contact": "1234567",
+      "email": "deep@gmail.com"
+    },
+    {
+      "id": "dc97",
+      "name": "mani",
+      "contact": "3456787654",
+      "email": "mani@gmail.com"
+    },
+    {
+      "id": "059c",
+      "name": "hi",
+      "contact": "123456",
+      "email": "hi@gmail.com"
+    },
+    {
+      "id": "c459",
+      "name": "e",
+      "contact": "2",
+      "email": "1@gmail.com"
+    },
+    {
+      "id": "bf0c",
+      "name": "mani",
+      "contact": "123456",
+      "email": "email@email.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Product A",
+      "barcode": "1234567890123",
+      "price": 10,
+      "stock": 100
+    },
+    {
+      "id": "2",
+      "name": "Product B",
+      "barcode": "2",
+      "price": 10,
+      "stock": 100
+    },
+    {
+      "id": "3",
+      "name": "Product C",
+      "barcode": "3",
+      "price": 10,
+      "stock": 100
+    },
+    {
+      "id": "4",
+      "name": "Product D",
+      "barcode": "4",
+      "price": 10,
+      "stock": 100
+    },
+    {
+      "id": "5",
+      "name": "Product E",
+      "barcode": "5",
+      "price": 20,
+      "stock": 50
+    }
+  ],
+  "inventory": [
+    {
+      "id": "1",
+      "item": "Tea Powder",
+      "quantity": 111,
+      "price": 10,
+      "barcode": "1"
+    },
+    {
+      "id": "2",
+      "item": "Coffee powder",
+      "quantity": 94,
+      "price": 10,
+      "barcode": "2"
+    },
+    {
+      "id": "3",
+      "item": "JIM JAM",
+      "quantity": 94,
+      "price": 10,
+      "barcode": "3"
+    },
+    {
+      "id": "4",
+      "item": "chocolate",
+      "quantity": 90,
+      "price": 10,
+      "barcode": "4"
+    },
+    {
+      "id": "5",
+      "item": "mutton",
+      "quantity": 48,
+      "price": 20,
+      "barcode": "5"
+    },
+    {
+      "id": "f344",
+      "item": "brocolii",
+      "quantity": 7777,
+      "price": 123456,
+      "barcode": "66",
+      "supplierId": "b351"
+    },
+    {
+      "id": "dd1d",
+      "item": "oil",
+      "quantity": 56665,
+      "price": 12345678,
+      "barcode": "55",
+      "supplierId": "b351"
+    },
+    {
+      "id": "8f29",
+      "item": "banana",
+      "quantity": 345663,
+      "price": 12345678,
+      "barcode": "44",
+      "supplierId": "b351"
+    },
+    {
+      "id": "5931",
+      "item": "biscuits",
+      "quantity": 123449,
+      "price": 123456789,
+      "barcode": "45",
+      "supplierId": "8053"
+    },
+    {
+      "id": "21f0",
+      "item": "strawberry",
+      "quantity": 56788,
+      "price": 123456,
+      "barcode": "99",
+      "supplierId": "b351"
+    },
+    {
+      "id": "e933",
+      "item": "mango",
+      "quantity": 2343,
+      "price": 12345678,
+      "barcode": "7",
+      "supplierId": "b351"
+    },
+    {
+      "id": "6379",
+      "item": "watermelon",
+      "quantity": 233,
+      "price": 456789,
+      "barcode": "6",
+      "supplierId": "b351"
+    },
+    {
+      "id": "5dfc",
+      "item": "tomato",
+      "quantity": 6788,
+      "price": 1234567,
+      "barcode": "69",
+      "supplierId": "dc97"
+    },
+    {
+      "id": "ce0a",
+      "item": "grains",
+      "quantity": 3456,
+      "price": 12345,
+      "barcode": "234",
+      "supplierId": "c459"
+    },
+    {
+      "id": "8077",
+      "item": "toy",
+      "quantity": 67,
+      "price": 5678,
+      "barcode": "89",
+      "supplierId": "dc97"
+    },
+    {
+      "id": "b274",
+      "item": "milk bikis",
+      "quantity": 2345,
+      "price": 123456,
+      "barcode": "77",
+      "supplierId": "b351"
+    },
+    {
+      "id": "aa27",
+      "item": "Prod1",
+      "quantity": 100,
+      "price": 100,
+      "barcode": "79",
+      "supplierId": "1"
+    }
+  ],
+  "sales": [
+    {
+      "id": "8e1d",
+      "product": "brocolii",
+      "quantity": 1,
+      "total": 123456,
+      "paymentMethod": "credit",
+      "customer": "Devanand K.S.J"
+    },
+    {
+      "id": "decd",
+      "product": "banana",
+      "quantity": 1,
+      "total": 12345678,
+      "paymentMethod": "debit",
+      "customer": "Devanand K. S. J"
+    },
+    {
+      "id": "ba60",
+      "product": "JIM JAM",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "cash",
+      "customer": "Devanand K. S. J"
+    },
+    {
+      "id": "b9d1",
+      "product": "chocolate",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "debit",
+      "customer": "Devanand K. S. J"
+    },
+    {
+      "id": "ac74",
+      "product": "chocolate",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "credit",
+      "customer": "manibharathi"
+    },
+    {
+      "id": "871e",
+      "product": "tomato",
+      "quantity": "4",
+      "total": 4938268,
+      "paymentMethod": "cash",
+      "customer": "meghan"
+    },
+    {
+      "id": "1d21",
+      "product": "JIM JAM",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "credit",
+      "customer": "fazil"
+    },
+    {
+      "id": "865b",
+      "product": "JIM JAM",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "credit",
+      "customer": "fazil"
+    },
+    {
+      "id": "a9ff",
+      "product": "JIM JAM",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "Card",
+      "customer": "Guest"
+    },
+    {
+      "id": "5241",
+      "product": "Coffee powder",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "credit",
+      "customer": "Devanand K.S.J"
+    },
+    {
+      "id": "2f89",
+      "product": "Coffee powder",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "debit",
+      "customer": "Devanand K.S.J"
+    },
+    {
+      "id": "c691",
+      "product": "chocolate",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "debit",
+      "customer": "Devanand K.S.J"
+    },
+    {
+      "id": "e366",
+      "product": "JIM JAM",
+      "quantity": "3",
+      "total": 30,
+      "paymentMethod": "cash",
+      "customer": "fazil"
+    },
+    {
+      "id": "f929",
+      "product": "JIM JAM",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "cash",
+      "customer": "Devanand K.S.J"
+    },
+    {
+      "id": "8cc9",
+      "product": "Coffee powder",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "cash",
+      "customer": "Devanand K.S.J"
+    },
+    {
+      "id": "758f",
+      "product": "chocolate",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "cash",
+      "customer": "anand"
+    },
+    {
+      "id": "0cf1",
+      "product": "JIM JAM",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "cash",
+      "customer": "Devanand K.S.J"
+    },
+    {
+      "id": "3a05",
+      "product": "mango",
+      "quantity": 1,
+      "total": 12345678,
+      "paymentMethod": "credit",
+      "customer": "manibharathi"
+    },
+    {
+      "id": "5978",
+      "product": "mutton",
+      "quantity": 1,
+      "total": 20,
+      "paymentMethod": "credit",
+      "customer": "manibharathi"
+    },
+    {
+      "id": "1667",
+      "product": "Prod1",
+      "quantity": "10",
+      "total": 1000,
+      "paymentMethod": "credit",
+      "customer": "mani"
+    },
+    {
+      "id": "56df",
+      "product": "JIM JAM",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "credit",
+      "customer": "mani"
+    },
+    {
+      "id": "6c05",
+      "product": "Coffee powder",
+      "quantity": 1,
+      "total": 10,
+      "paymentMethod": "cash",
+      "customer": "mani"
+    }
+  ],
+  "customers": [
+    {
+      "id": "faed",
+      "name": "Devanand K.S.J",
+      "phone": "7708586808"
+    },
+    {
+      "id": "e34c",
+      "name": "manibharathi",
+      "phone": "1234567890"
+    },
+    {
+      "id": "1cf1",
+      "name": "meghan",
+      "phone": "123456783456"
+    },
+    {
+      "id": "7f9b",
+      "name": "fazil",
+      "phone": "7708586808"
+    },
+    {
+      "id": "091c",
+      "name": "fazil",
+      "phone": "123456789"
+    },
+    {
+      "id": "4c55",
+      "name": "Devanand K.S.J",
+      "phone": "7708586808"
+    },
+    {
+      "id": "7395",
+      "name": "Devanand K.S.J",
+      "phone": "7708586808"
+    },
+    {
+      "id": "b44e",
+      "name": "Devanand K.S.J",
+      "phone": "7708586808"
+    },
+    {
+      "id": "6c5b",
+      "name": "fazil",
+      "phone": "7708586808"
+    },
+    {
+      "id": "7a52",
+      "name": "Devanand K.S.J",
+      "phone": "7708586808"
+    },
+    {
+      "id": "b055",
+      "name": "Devanand K.S.J",
+      "phone": "7708586808"
+    },
+    {
+      "id": "5f0f",
+      "name": "anand",
+      "phone": "9843774094"
+    },
+    {
+      "id": "da60",
+      "name": "Devanand K.S.J",
+      "phone": "7708586808"
+    },
+    {
+      "id": "30b6",
+      "name": "manibharathi",
+      "phone": "1234567890"
+    },
+    {
+      "id": "ff82",
+      "name": "mani",
+      "phone": "123456783456"
+    },
+    {
+      "id": "b058",
+      "name": "mani",
+      "phone": "7708586808"
+    }
+  ],
+  "employees": [
+    {
+      "id": "b55a",
+      "name": "dev",
+      "department": "Sales",
+      "shift": "morning",
+      "attendance": 44
+    },
+    {
+      "id": "60b3",
+      "name": "srinaath",
+      "department": "Manager",
+      "shift": "night",
+      "attendance": 67
+    },
+    {
+      "id": "0de6",
+      "name": "deepak",
+      "department": "IE",
+      "shift": "night",
+      "attendance": 89
+    }
+  ],
+  "salaries": [
+    {
+      "id": "606a",
+      "employeeId": null,
+      "salary": 5000
+    },
+    {
+      "id": "b232",
+      "employeeId": null,
+      "salary": 50000
+    },
+    {
+      "id": "9530",
+      "employeeId": null,
+      "salary": 315
+    },
+    {
+      "id": "c1a0",
+      "employeeId": null,
+      "salary": 7920
+    },
+    {
+      "id": "983f",
+      "employeeId": "b55a",
+      "salary": 2640
+    },
+    {
+      "id": "ff31",
+      "employeeId": null,
+      "salary": 4800
+    },
+    {
+      "id": "c3ac",
+      "employeeId": null,
+      "salary": 7920
+    },
+    {
+      "id": "98ae",
+      "employeeId": "60b3",
+      "salary": 10050
+    },
+    {
+      "id": "f9b5",
+      "employeeId": null,
+      "salary": 3000
+    },
+    {
+      "id": "9cca",
+      "employeeId": "0de6",
+      "salary": 9345
+    }
+  ],
+  "departments": [
+    {
+      "name": "Supplier",
+      "baseSalary": 50,
+      "id": "e7be"
+    },
+    {
+      "name": "Sales",
+      "baseSalary": 60,
+      "id": "4318"
+    },
+    {
+      "name": "IE",
+      "baseSalary": 70,
+      "id": "5e43"
+    },
+    {
+      "name": "Manager",
+      "baseSalary": 100,
+      "id": "b912"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+/* General dashboard styling */
+.admin-dashboard {
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff; /* White background for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+  max-width: 1200px; /* Centering the content with a max-width */
+}
+
+/* Heading styles */
+.admin-dashboard h2,
+.admin-dashboard h3 {
+  color: #333; /* Dark gray for better readability */
+  border-bottom: 3px solid #007bff; /* Blue underline for headings */
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+/* List styling */
+.admin-dashboard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-dashboard ul li {
+  background: #f9f9f9; /* Light gray background for list items */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+}
+
+.admin-dashboard ul li:hover {
+  background-color: #e2e6ea; /* Slightly darker gray on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Form styling */
+.add-supplier-form {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #f1f1f1; /* Light background for the form */
+}
+
+/* Input field styling */
+.add-supplier-form input {
+  display: block;
+  width: calc(100% - 22px); /* Adjusting for padding and border */
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input focus styling */
+.add-supplier-form input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3); /* Light blue shadow on focus */
+}
+
+/* Button styling */
+.add-supplier-form button {
+  padding: 12px 24px;
+  background: #007bff; /* Primary blue color */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button hover styling */
+.add-supplier-form button:hover {
+  background: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Button active styling */
+.add-supplier-form button:active {
+  background: #004080; /* Even darker blue when active */
+  transform: scale(1.02); /* Slightly smaller scale on active */
+}
+
+/* Go to Inventory button styling */
+.go-to-inventory {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #28a745; /* Primary green color */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Go to Inventory button hover styling */
+.go-to-inventory:hover {
+  background: #218838; /* Darker green on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Go to Inventory button active styling */
+.go-to-inventory:active {
+  background: #1e7e34; /* Even darker green when active */
+  transform: scale(1.02); /* Slightly smaller scale on active */
+}

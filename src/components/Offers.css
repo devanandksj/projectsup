@@ -1,0 +1,84 @@
+.offers-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #f0f3f6; /* Light grey background for the whole page */
+    min-height: 100vh; /* Ensure the page takes up the full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+.offers-page h1 {
+    font-size: 36px;
+    color: #b02222; /* A similar red color to match the theme */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Style for the products section */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust to fit multiple screen sizes */
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px; /* Add padding to prevent content from touching the edges */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+/* Style for individual product cards */
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.product-card img:hover {
+    transform: scale(1.05);
+}
+
+.product-card h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 1px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+.product-card .price {
+    font-size: 20px;
+    color: #b02222;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+}

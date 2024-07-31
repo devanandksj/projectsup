@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar 1 (Top Right Corner) */
+  .navbar-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background-color: rgba(51, 51, 51, 0.8);
+  }
+  
+  .navbar-1 .nav-link button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .navbar-1 .nav-link button:hover {
+    background-color: #575757;
+  }
+  
+  /* Navbar 2 (Centered) */
+  .navbar-2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 4px 0;
+  }
+  
+  .navbar-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar-2 li a:hover {
+    background-color: #575757;
+  }
+  .navbar-right li{
+    top: 60px;
+    bottom: 0;
+  }

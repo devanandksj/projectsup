@@ -1,0 +1,191 @@
+/* Main container with gradient background */
+.products-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background:  #34495E;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header
+{
+  color:#2ECC71;
+}
+/* Header styling */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Barcode form styling */
+.barcode-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.barcode-form input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.barcode-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #E67E22;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.barcode-form button:hover {
+  background: linear-gradient(135deg, #218838, #28a745);
+}
+
+/* Product details styling */
+.product-details {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-details h3 {
+  margin-top: 0;
+}
+.product-details button{
+  color: #E67E22;
+}
+
+.product-details .price, .product-details .stock {
+  font-weight: bold;
+}
+
+.product-details input {
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-details button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-details button:hover {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+}
+
+/* Cart summary styling */
+.cart-summary {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-total {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkout form styling */
+.checkout-form {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment-method label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.new-customer {
+  margin-bottom: 20px; /* Increased space below the customer form */
+}
+
+.new-customer input {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-form button:hover {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+}
+
+/* Receipt styling */
+.receipt {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.receipt ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.receipt li {
+  margin-bottom: 10px;
+}
+
+.receipt button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.receipt button:hover {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+}
